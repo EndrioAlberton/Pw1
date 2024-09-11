@@ -1,8 +1,7 @@
 package clientes;
-import java.util.ArrayList;
-
 import contatos.Endereco;
 import cpf.Cpf;
+import java.util.ArrayList;
 
 public class ClientePessoaFisica extends Cliente {
 	private String nome;

@@ -1,11 +1,10 @@
 package menu;
 
-import java.util.ArrayList;
-import javax.swing.JOptionPane;
-
 import clientes.ClientePessoaFisica;
 import contatos.Endereco;
 import cpf.Cpf;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 public class Menu {
     private static ArrayList<ClientePessoaFisica> clientes = new ArrayList<>();

@@ -1,6 +1,6 @@
 package clientes;
-import java.util.*;
 import contatos.Endereco;
+import java.util.*;
 
 public class Cliente {//extends Object {
 	private String telefone;
