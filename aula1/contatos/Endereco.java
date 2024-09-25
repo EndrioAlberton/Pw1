@@ -1,13 +1,10 @@
 package contatos;
 
 public class Endereco {
-	//atributos
 	private String logradouro;
 	private String complemento;
 	private long cep;
 	
-	//construtores
-	//construtor sempre tem o nome da classe
 	public Endereco() {}
 	public Endereco(String logradouro, String complemento, long cep) {
 		this.logradouro = logradouro;
@@ -15,7 +12,6 @@ public class Endereco {
 		this.cep = cep;
 	}
 	
-	//métodos
 	public String toString() {
 		return logradouro + " " + complemento + " " + cep; 
 	}

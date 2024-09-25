@@ -15,11 +15,8 @@ public class Cliente {//extends Object {
 	@Override
 	public String toString() {
 		String aux = "";
-		//verifica se a lista existe - não é nula
 		if(enderecos != null) {
-			//percorre a lista pegando cada um dos endereços
 			for (Endereco endereco : enderecos) {
-				//verifica se cada elemento da lista existe, não é nulo
 				if(endereco != null)
 					aux += endereco.toString();
 			}
